@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+}
+
+.headline {
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headline:before {
+    content: '';
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #d2d0d0;
+    box-shadow: 0 0 5px rgb(204, 204, 204);
+}
+
+.insta {
+    width: 150px;
+}
+
+.lupe {
+    width: 20px;
+}
+
+.icons {
+    width: 40px;
+    object-fit: cover;
+}
+.icon-send{
+    width: 40px;
+}
+
+.icons-herz {
+    width: 25px;
+}
+
+.profilfoto {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.all-icons {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+
+.suchen-icon {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.suchen-icon::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('img/1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.suchen-icon input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    box-sizing: border-box;
+    padding-right: 40px;
+}
+
+
+
+.hauptcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .profilfoto {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .profilfoto-img {
+    width: 31px;
+    height:fit-content;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .author-post {
+    font-weight: bold;
+  }
+  
+  .post-foto-container {
+    margin-bottom: 10px;
+  }
+  
+  .post-foto {
+    width: 100%;
+    height: 560px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: flex;
+   
+  }
+  
+  .post-icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .icons-herz {
+    margin-right: 20px;
+  }
+  
+  .kommentieren-input {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .input-kommentieren {
+    flex: 1;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .btn-kommentieren {
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .location-post{
+   margin-top: 40px;
+  }
